@@ -20,6 +20,11 @@
             <artifactId>account-service</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.xinux.account</groupId>
+            <artifactId>account-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!-- project dependencies end -->
     </dependencies>
 </project>

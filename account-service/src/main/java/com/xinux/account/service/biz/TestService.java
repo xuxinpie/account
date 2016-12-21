@@ -2,7 +2,7 @@
  * Bilibili.com Inc.
  * Copyright (c) 2009-2016 All Rights Reserved.
  */
-package com.xinux.account.serivce.biz;
+package com.xinux.account.service.biz;
 
 /**
  * @author Xinux
@@ -10,6 +10,6 @@ package com.xinux.account.serivce.biz;
  */
 public interface TestService {
 
-	void testMethod();
+	String showUserName();
 
 }

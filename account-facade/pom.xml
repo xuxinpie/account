@@ -6,12 +6,21 @@
         <artifactId>account-parent</artifactId>
         <groupId>com.xinux.account</groupId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xinux.account</groupId>
     <artifactId>account-facade</artifactId>
     <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.xinux.account</groupId>
+            <artifactId>account-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
